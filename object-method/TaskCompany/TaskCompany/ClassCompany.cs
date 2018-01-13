@@ -65,7 +65,7 @@ namespace TaskCompany
         {
             Console.WriteLine($"Yrityksen nimi: {Title}\n" +
                               $"Osoite: {Address}\n" +
-                              $"Puh. {Phone.ToString($"0## #### ###")}\n" +
+                              $"Puh: {Phone.ToString($"0## #### ###")}\n" +
                               $"Tulot: {_outcome:C}\n" +
                               $"Menot: {_expense:C}\n");
         }
