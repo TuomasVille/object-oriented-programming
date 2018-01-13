@@ -67,7 +67,7 @@ namespace TaskCompany
                               $"Osoite: {Address}\n" +
                               $"Puh: {Phone.ToString($"0## #### ###")}\n" +
                               $"Tulot: {_outcome:C}\n" +
-                              $"Menot: {_expense:C}\n");
+                              $"Menot: {_expense:C}");
         }
 
         public void Profit(ClassCompany previousClassCompany)
