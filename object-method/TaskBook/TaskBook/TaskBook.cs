@@ -42,11 +42,11 @@ namespace TaskBook
         {
             if(this.Price > book.Price)
             {
-                return $"{this.Title} on kalliimpi kuin {book.Title} kirja";
+                return $"{this.Title} on kalliimpi kuin {book.Title}";
             }
             else
             {
-                return $"{this.Title} on halvempi kuin {book.Title} kirja";
+                return $"{this.Title} on halvempi kuin {book.Title}";
             }
         }
     }
