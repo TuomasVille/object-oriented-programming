@@ -25,7 +25,7 @@ namespace TaskBookWriter
         {
             Console.WriteLine($"Writer name: {Name}\n" +
                               $"Birthday: {Birthday}");
-            Book.PrintBookInfo();
+            Book.GetBook("Kiirastuli");
         }
     }
 }
